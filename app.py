@@ -1,10 +1,6 @@
 import streamlit as st
-from dotenv import load_dotenv
 from rag import ask_question
 
-load_dotenv()
-
-    
 st.title("💬TubeGPT")
 st.write("")
 
